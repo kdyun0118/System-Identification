@@ -11,7 +11,7 @@
   ENDIF(WIN32)
 
 # options
-  option(DEBUG_MODE "Activate debug mode" OFF)
+  option(DEBUG_MODE "Activate debug mode" ON)
   option(BUILD_UNIT_TESTS "Build the unit tests" ON)
   option(BUILD_EXAMPLES "Build the examples" ON)
   # option(BUILD_BENCHMARKS "Build the benchmarks" OFF)
@@ -38,9 +38,12 @@
   include_directories($ENV{CASADI_INSTALL_INCLUDE})
   
   find_package(pinocchio REQUIRED)
-  # link_directories( ${PINOCCHIO_LIBRARY_DIRS} )
+  include_directories(${PINOCCHIO_INCLUDE_DIRS})
+  link_directories(${PINOCCHIO_LIBRARY_DIRS})
+  find_package(Eigen3 REQUIRED)
+  include_directories(${EIGEN3_INCLUDE_DIR})
 
-# Include root folder to the project's include path
+  # Include root folder to the project's include path
   # include_directories(${CMAKE_SOURCE_DIR})
 
 # ----------------------------------------------------

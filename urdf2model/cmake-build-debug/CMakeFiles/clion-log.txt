@@ -1,0 +1,21 @@
+/home/kdyun/clion-2022.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_PREFIX_PATH=/opt/openrobots/ -G "CodeBlocks - Unix Makefiles" -S /home/kdyun/Desktop/urdf2modelcasadi/urdf2model -B /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug
+CMake Deprecation Warning at CMakeLists.txt:1 (CMAKE_MINIMUM_REQUIRED):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- pinocchio_default FOUND. pinocchio_default at /opt/openrobots/lib/libpinocchio_default.so
+-- urdfdom_world FOUND. urdfdom_world at /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+-- boost_filesystem FOUND. boost_filesystem at /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+-- boost_serialization FOUND. boost_serialization at /usr/lib/x86_64-linux-gnu/libboost_serialization.so
+-- boost_system FOUND. boost_system at /usr/lib/x86_64-linux-gnu/libboost_system.so
+-- Found Boost: /usr/include (found version "1.71.0") found components: filesystem serialization system 
+-- Default C++ standard: 201103
+-- C++ standard sufficient: Minimal required 11, currently defined: 11
+-- Found Boost: /usr/include (found version "1.71.0") found components: system filesystem unit_test_framework 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug
