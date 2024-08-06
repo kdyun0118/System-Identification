@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/indy7_example.dir/indy7_example.o -o indy7_example  -lProject -lpinocchio::pinocchio 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/hyu_mm_example.dir/hyu_mm_example.o -o hyu_mm_example  -lProject -lpinocchio::pinocchio 

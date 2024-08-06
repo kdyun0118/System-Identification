@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/xarm6_example.dir/xarm6_example.o -o xarm6_example  -lProject -lpinocchio::pinocchio 

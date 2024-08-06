@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/ur10_example.dir/ur10_example.o -o ur10_example  -lProject -lpinocchio::pinocchio 

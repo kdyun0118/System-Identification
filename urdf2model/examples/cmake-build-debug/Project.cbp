@@ -1,0 +1,2054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basic_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/basic_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 basic_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="basic_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/basic_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 basic_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="complete_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/complete_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 complete_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="complete_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/complete_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 complete_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinova_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/kinova_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinova_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinova_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/kinova_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinova_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinova_2dof_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/kinova_2dof_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinova_2dof_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinova_2dof_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/kinova_2dof_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinova_2dof_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caesar_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/caesar_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 caesar_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caesar_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/caesar_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 caesar_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caesar_noload_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/caesar_noload_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 caesar_noload_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="caesar_noload_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/caesar_noload_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 caesar_noload_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ur10_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/ur10_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 ur10_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ur10_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/ur10_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 ur10_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yumi_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/yumi_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 yumi_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="yumi_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/yumi_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 yumi_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tj_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/tj_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 tj_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tj_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/tj_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 tj_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gen3_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/gen3_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 gen3_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gen3_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/gen3_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 gen3_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gen3_lite_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/gen3_lite_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 gen3_lite_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gen3_lite_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/gen3_lite_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 gen3_lite_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinova_gripper_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/kinova_gripper_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinova_gripper_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kinova_gripper_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/kinova_gripper_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 kinova_gripper_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iiwa_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/iiwa_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 iiwa_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="iiwa_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/iiwa_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 iiwa_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scara_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/scara_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 scara_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scara_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/scara_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 scara_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kuka_kr60_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/kuka_kr60_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 kuka_kr60_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kuka_kr60_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/kuka_kr60_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 kuka_kr60_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kuka_kr5_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/kuka_kr5_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 kuka_kr5_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="kuka_kr5_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/kuka_kr5_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 kuka_kr5_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atlas_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/atlas_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 atlas_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="atlas_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/atlas_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 atlas_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rubion_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/rubion_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rubion_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rubion_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/rubion_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rubion_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gen3_float_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/gen3_float_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 gen3_float_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gen3_float_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/gen3_float_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 gen3_float_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mmo500_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mmo500_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmo500_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mmo500_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mmo500_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmo500_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mmo500_ppr_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mmo500_ppr_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmo500_ppr_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mmo500_ppr_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mmo500_ppr_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmo500_ppr_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mmo500_arm_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mmo500_arm_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmo500_arm_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mmo500_arm_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mmo500_arm_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mmo500_arm_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hyu_mm_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/hyu_mm_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 hyu_mm_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hyu_mm_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/hyu_mm_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 hyu_mm_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sftmp_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/sftmp_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 sftmp_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sftmp_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/sftmp_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 sftmp_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sftlink_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/sftlink_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 sftlink_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sftlink_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/sftlink_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 sftlink_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="softarm_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/softarm_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 softarm_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="softarm_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/softarm_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 softarm_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="softarm_prismatic_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/softarm_prismatic_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 softarm_prismatic_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="softarm_prismatic_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/softarm_prismatic_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 softarm_prismatic_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="softarm_prismatic_slack_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/softarm_prismatic_slack_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 softarm_prismatic_slack_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="softarm_prismatic_slack_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/softarm_prismatic_slack_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 softarm_prismatic_slack_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tetra_mm_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/tetra_mm_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 tetra_mm_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tetra_mm_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/tetra_mm_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 tetra_mm_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mir_m0609_ppr_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mir_m0609_ppr_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mir_m0609_ppr_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mir_m0609_ppr_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mir_m0609_ppr_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mir_m0609_ppr_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mir250_m0609_ppr_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mir250_m0609_ppr_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mir250_m0609_ppr_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mir250_m0609_ppr_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mir250_m0609_ppr_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mir250_m0609_ppr_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mir250_ppr_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mir250_ppr_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mir250_ppr_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mir250_ppr_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/mir250_ppr_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 mir250_ppr_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="m0609_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/m0609_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 m0609_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="m0609_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/m0609_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 m0609_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xarm6_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/xarm6_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 xarm6_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xarm6_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/xarm6_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 xarm6_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xarm6_ros_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/xarm6_ros_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 xarm6_ros_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="xarm6_ros_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/xarm6_ros_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 xarm6_ros_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indy7_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/indy7_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 indy7_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indy7_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/indy7_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 indy7_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indyrp2_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/indyrp2_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 indyrp2_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="indyrp2_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/indyrp2_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 indyrp2_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/my_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/my_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_example2">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/my_example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_example2"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_example2/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/my_example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 my_example2/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pinocchioTest">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/pinocchioTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 pinocchioTest"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pinocchioTest/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/pinocchioTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 pinocchioTest/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="systemID">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/systemID" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 systemID"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="systemID/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/systemID" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 systemID/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/atlas_example.cpp">
+			<Option target="atlas_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/basic_example.cpp">
+			<Option target="basic_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/caesar_example.cpp">
+			<Option target="caesar_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/caesar_noload_example.cpp">
+			<Option target="caesar_noload_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/complete_example.cpp">
+			<Option target="complete_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/gen3_example.cpp">
+			<Option target="gen3_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/gen3_float_example.cpp">
+			<Option target="gen3_float_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/gen3_lite_example.cpp">
+			<Option target="gen3_lite_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/hyu_mm_example.cpp">
+			<Option target="hyu_mm_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/iiwa_example.cpp">
+			<Option target="iiwa_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/indy7_example.cpp">
+			<Option target="indy7_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/indyrp2_example.cpp">
+			<Option target="indyrp2_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/kinova_2dof_example.cpp">
+			<Option target="kinova_2dof_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/kinova_example.cpp">
+			<Option target="kinova_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/kinova_gripper_example.cpp">
+			<Option target="kinova_gripper_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/kuka_kr5_example.cpp">
+			<Option target="kuka_kr5_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/kuka_kr60_example.cpp">
+			<Option target="kuka_kr60_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/m0609_example.cpp">
+			<Option target="m0609_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/mir250_m0609_ppr_example.cpp">
+			<Option target="mir250_m0609_ppr_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/mir250_ppr_example.cpp">
+			<Option target="mir250_ppr_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/mir_m0609_ppr_example.cpp">
+			<Option target="mir_m0609_ppr_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/mmo500_arm_example.cpp">
+			<Option target="mmo500_arm_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/mmo500_example.cpp">
+			<Option target="mmo500_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/mmo500_ppr_example.cpp">
+			<Option target="mmo500_ppr_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/my_example.cpp">
+			<Option target="my_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/my_example2.cpp">
+			<Option target="my_example2"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/pinocchioTest.cpp">
+			<Option target="pinocchioTest"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/rubion_example.cpp">
+			<Option target="rubion_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/scara_example.cpp">
+			<Option target="scara_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/sftlink_example.cpp">
+			<Option target="sftlink_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/sftmp_example.cpp">
+			<Option target="sftmp_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/softarm_example.cpp">
+			<Option target="softarm_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/softarm_prismatic_example.cpp">
+			<Option target="softarm_prismatic_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/softarm_prismatic_slack_example.cpp">
+			<Option target="softarm_prismatic_slack_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/systemID.cpp">
+			<Option target="systemID"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/tetra_mm_example.cpp">
+			<Option target="tetra_mm_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/tj_example.cpp">
+			<Option target="tj_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/ur10_example.cpp">
+			<Option target="ur10_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/xarm6_example.cpp">
+			<Option target="xarm6_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/xarm6_ros_example.cpp">
+			<Option target="xarm6_ros_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/yumi_example.cpp">
+			<Option target="yumi_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

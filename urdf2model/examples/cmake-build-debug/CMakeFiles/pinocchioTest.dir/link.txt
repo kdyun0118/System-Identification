@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/pinocchioTest.dir/pinocchioTest.o -o pinocchioTest  -lProject -lpinocchio::pinocchio -lraisim::raisim 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/softarm_example.dir/softarm_example.o -o softarm_example  -lProject -lpinocchio::pinocchio 

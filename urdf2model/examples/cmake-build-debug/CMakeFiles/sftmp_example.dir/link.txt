@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/sftmp_example.dir/sftmp_example.o -o sftmp_example  -lProject -lpinocchio::pinocchio 

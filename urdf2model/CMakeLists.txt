@@ -36,12 +36,20 @@
 # for linking directories (as the -L flag in gcc)
   find_library(CASADI_LIB casadi HINTS $ENV{CASADI_INSTALL_LIB})
   include_directories($ENV{CASADI_INSTALL_INCLUDE})
-  
+
+
+  list(APPEND CMAKE_PREFIX_PATH /home/kdyun/Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux)
+
+  message("pinocchio_DIR: ${pinocchio_DIR}")
+  message("CMAKE_PREFIX_PATH: ${CMAKE_PREFIX_PATH}")
+
+
   find_package(pinocchio REQUIRED)
   include_directories(${PINOCCHIO_INCLUDE_DIRS})
   link_directories(${PINOCCHIO_LIBRARY_DIRS})
   find_package(Eigen3 REQUIRED)
   include_directories(${EIGEN3_INCLUDE_DIR})
+  find_package(raisim CONFIG REQUIRED)
 
   # Include root folder to the project's include path
   # include_directories(${CMAKE_SOURCE_DIR})

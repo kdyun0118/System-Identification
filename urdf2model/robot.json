@@ -1,0 +1,116 @@
+{
+    "name": "Hound_description",
+    "n_dof": "18",
+    "n_joints": "14",
+    "n_q": "19",
+    "n_frames": "35",
+    "gravity": {
+        "x": "0",
+        "y": "0",
+        "z": "-9.8100000000000005"
+    },
+    "forward_kinematics_path": "Hound_description_fk.casadi",
+    "forward_dynamics_path": "Hound_description_fd.casadi",
+    "inverse_dynamics_path": "Hound_description_id.casadi",
+    "Jacobian_forward_dynamics_path": "Hound_description_J_fd.casadi",
+    "Jacobian_inverse_dynamics_path": "Hound_description_J_id.casadi",
+    "Jacobian_space_path": "Hound_description_J_s.casadi",
+    "Jacobian_body_path": "Hound_description_J_b.casadi",
+    "mass_matrix_path": "Hound_description_M.casadi",
+    "mass_inverse_matrix_path": "Hound_description_Minv.casadi",
+    "coriolis_path": "Hound_description_C.casadi",
+    "gravity_path": "Hound_description_G.casadi",
+    "joints": {
+        "root_joint": {
+            "joint_types": "JointModelFreeFlyer",
+            "joint_pos_ub": "1.7976931348623157e+308",
+            "joint_pos_lb": "-1.7976931348623157e+308",
+            "joint_torque_limit": "1.7976931348623157e+308",
+            "joint_vel_limit": "1.7976931348623157e+308"
+        },
+        "FL_roll_joint": {
+            "joint_types": "JointModelRX",
+            "joint_pos_ub": "1.7976931348623157e+308",
+            "joint_pos_lb": "-1.7976931348623157e+308",
+            "joint_torque_limit": "1.7976931348623157e+308",
+            "joint_vel_limit": "1.7976931348623157e+308"
+        },
+        "FL_hip_joint": {
+            "joint_types": "JointModelRY",
+            "joint_pos_ub": "1.7976931348623157e+308",
+            "joint_pos_lb": "-1.7976931348623157e+308",
+            "joint_torque_limit": "1.7976931348623157e+308",
+            "joint_vel_limit": "1.7976931348623157e+308"
+        },
+        "FL_knee_joint": {
+            "joint_types": "JointModelRY",
+            "joint_pos_ub": "1.7976931348623157e+308",
+            "joint_pos_lb": "-1.7976931348623157e+308",
+            "joint_torque_limit": "1.7976931348623157e+308",
+            "joint_vel_limit": "1.7976931348623157e+308"
+        },
+        "FR_roll_joint": {
+            "joint_types": "JointModelRX",
+            "joint_pos_ub": "1.7976931348623157e+308",
+            "joint_pos_lb": "-1.7976931348623157e+308",
+            "joint_torque_limit": "1.7976931348623157e+308",
+            "joint_vel_limit": "1.7976931348623157e+308"
+        },
+        "FR_hip_joint": {
+            "joint_types": "JointModelRY",
+            "joint_pos_ub": "1.7976931348623157e+308",
+            "joint_pos_lb": "-1.7976931348623157e+308",
+            "joint_torque_limit": "1.7976931348623157e+308",
+            "joint_vel_limit": "1.7976931348623157e+308"
+        },
+        "FR_knee_joint": {
+            "joint_types": "JointModelRY",
+            "joint_pos_ub": "1.7976931348623157e+308",
+            "joint_pos_lb": "-1.7976931348623157e+308",
+            "joint_torque_limit": "200",
+            "joint_vel_limit": "21.289999999999999"
+        },
+        "RL_roll_joint": {
+            "joint_types": "JointModelRX",
+            "joint_pos_ub": "1.48352986419518",
+            "joint_pos_lb": "-1.48352986419518",
+            "joint_torque_limit": "200",
+            "joint_vel_limit": "21.289999999999999"
+        },
+        "RL_hip_joint": {
+            "joint_types": "JointModelRY",
+            "joint_pos_ub": "6.2831853071800001",
+            "joint_pos_lb": "-6.2831853071800001",
+            "joint_torque_limit": "400",
+            "joint_vel_limit": "9.6999999999999993"
+        },
+        "RL_knee_joint": {
+            "joint_types": "JointModelRY",
+            "joint_pos_ub": "2.7925268000000001",
+            "joint_pos_lb": "-2.7925268000000001",
+            "joint_torque_limit": "200",
+            "joint_vel_limit": "21.289999999999999"
+        },
+        "RR_roll_joint": {
+            "joint_types": "JointModelRX",
+            "joint_pos_ub": "1.48352986419518",
+            "joint_pos_lb": "-1.48352986419518",
+            "joint_torque_limit": "200",
+            "joint_vel_limit": "21.289999999999999"
+        },
+        "RR_hip_joint": {
+            "joint_types": "JointModelRY",
+            "joint_pos_ub": "6.2831853071800001",
+            "joint_pos_lb": "-6.2831853071800001",
+            "joint_torque_limit": "400",
+            "joint_vel_limit": "9.6999999999999993"
+        },
+        "RR_knee_joint": {
+            "joint_types": "JointModelRY",
+            "joint_pos_ub": "2.7925268000000001",
+            "joint_pos_lb": "-2.7925268000000001",
+            "joint_torque_limit": "200",
+            "joint_vel_limit": "21.289999999999999"
+        }
+    }
+}

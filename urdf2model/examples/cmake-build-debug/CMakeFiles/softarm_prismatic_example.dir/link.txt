@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/softarm_prismatic_example.dir/softarm_prismatic_example.o -o softarm_prismatic_example  -lProject -lpinocchio::pinocchio 

@@ -412,3 +412,55 @@ target_link_libraries( indyrp2_example
        pinocchio::pinocchio
                          )
 
+
+# my example
+add_executable( my_example
+        my_example.cpp
+        )
+target_link_libraries( my_example
+
+        ${PROJECT_NAME}
+        ${CASADI_LIB}
+        pinocchio::pinocchio
+        raisim::raisim
+        )
+
+# my example
+add_executable( my_example2
+        my_example2.cpp
+        )
+target_link_libraries( my_example2
+
+        ${PROJECT_NAME}
+        ${CASADI_LIB}
+        pinocchio::pinocchio
+        )
+
+# systemID
+add_executable( pinocchioTest
+        pinocchioTest.cpp
+        )
+target_link_libraries( pinocchioTest
+        ${PROJECT_NAME}
+        ${CASADI_LIB}
+        pinocchio::pinocchio
+        raisim::raisim
+        )
+
+# systemID
+add_executable( systemID
+        systemID.cpp
+        )
+target_link_libraries( systemID
+
+        ${PROJECT_NAME}
+        ${CASADI_LIB}
+        pinocchio::pinocchio
+        raisim::raisim
+        )
+
+
+
+
+
+

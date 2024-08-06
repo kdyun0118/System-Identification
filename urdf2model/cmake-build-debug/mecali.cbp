@@ -5,7 +5,7 @@
 		<Option title="mecali"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\openrobots\;CMake Files\..\..\..\..\..\opt\openrobots\lib\;CMake Files\..\..\..\..\..\opt\openrobots\lib\cmake\;CMake Files\..\..\..\..\..\opt\openrobots\lib\cmake\pinocchio\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\urdfdom_headers\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\urdfdom_headers\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\urdfdom\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\urdfdom\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\console_bridge\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\console_bridge\cmake\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\casadi\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\cmake\;CMake Files\src\;CMake Files\examples\;CMake Files\tests\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\openrobots\;CMake Files\..\..\..\..\..\opt\openrobots\lib\;CMake Files\..\..\..\..\..\opt\openrobots\lib\cmake\;CMake Files\..\..\..\..\..\opt\openrobots\lib\cmake\pinocchio\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\urdfdom_headers\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\urdfdom_headers\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\urdfdom\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\urdfdom\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\console_bridge\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\console_bridge\cmake\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\casadi\;CMake Files\..\..\..\Raisim_v1.1.7\;CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\;CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\raisimLib\;CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\raisimLib\raisim\;CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\raisimLib\raisim\linux\;CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\raisimLib\raisim\linux\lib\;CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\raisimLib\raisim\linux\lib\cmake\;CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\raisimLib\raisim\linux\lib\cmake\raisim\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\cmake\;CMake Files\src\;CMake Files\examples\;CMake Files\tests\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug"/>
@@ -2579,6 +2579,282 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="my_example">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/my_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION"/>
+					<Add option="-DBOOST_MPL_LIMIT_LIST_SIZE=30"/>
+					<Add option="-DBOOST_MPL_LIMIT_VECTOR_SIZE=30"/>
+					<Add option="-DPINOCCHIO_WITH_URDFDOM"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src"/>
+					<Add directory="/opt/openrobots/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/include"/>
+					<Add directory="/home/kdyun/Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 my_example"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_example/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/my_example" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION"/>
+					<Add option="-DBOOST_MPL_LIMIT_LIST_SIZE=30"/>
+					<Add option="-DBOOST_MPL_LIMIT_VECTOR_SIZE=30"/>
+					<Add option="-DPINOCCHIO_WITH_URDFDOM"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src"/>
+					<Add directory="/opt/openrobots/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/include"/>
+					<Add directory="/home/kdyun/Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 my_example/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_example2">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/my_example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION"/>
+					<Add option="-DBOOST_MPL_LIMIT_LIST_SIZE=30"/>
+					<Add option="-DBOOST_MPL_LIMIT_VECTOR_SIZE=30"/>
+					<Add option="-DPINOCCHIO_WITH_URDFDOM"/>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src"/>
+					<Add directory="/opt/openrobots/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 my_example2"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="my_example2/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/my_example2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION"/>
+					<Add option="-DBOOST_MPL_LIMIT_LIST_SIZE=30"/>
+					<Add option="-DBOOST_MPL_LIMIT_VECTOR_SIZE=30"/>
+					<Add option="-DPINOCCHIO_WITH_URDFDOM"/>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src"/>
+					<Add directory="/opt/openrobots/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 my_example2/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pinocchioTest">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/pinocchioTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION"/>
+					<Add option="-DBOOST_MPL_LIMIT_LIST_SIZE=30"/>
+					<Add option="-DBOOST_MPL_LIMIT_VECTOR_SIZE=30"/>
+					<Add option="-DPINOCCHIO_WITH_URDFDOM"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src"/>
+					<Add directory="/opt/openrobots/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/include"/>
+					<Add directory="/home/kdyun/Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 pinocchioTest"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pinocchioTest/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/pinocchioTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION"/>
+					<Add option="-DBOOST_MPL_LIMIT_LIST_SIZE=30"/>
+					<Add option="-DBOOST_MPL_LIMIT_VECTOR_SIZE=30"/>
+					<Add option="-DPINOCCHIO_WITH_URDFDOM"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src"/>
+					<Add directory="/opt/openrobots/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/include"/>
+					<Add directory="/home/kdyun/Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 pinocchioTest/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="systemID">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/systemID" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION"/>
+					<Add option="-DBOOST_MPL_LIMIT_LIST_SIZE=30"/>
+					<Add option="-DBOOST_MPL_LIMIT_VECTOR_SIZE=30"/>
+					<Add option="-DPINOCCHIO_WITH_URDFDOM"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src"/>
+					<Add directory="/opt/openrobots/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/include"/>
+					<Add directory="/home/kdyun/Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 systemID"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="systemID/fast">
+				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/systemID" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DPINOCCHIO_ENABLE_TEMPLATE_INSTANTIATION"/>
+					<Add option="-DBOOST_MPL_LIMIT_LIST_SIZE=30"/>
+					<Add option="-DBOOST_MPL_LIMIT_VECTOR_SIZE=30"/>
+					<Add option="-DPINOCCHIO_WITH_URDFDOM"/>
+					<Add option="-DdIDEDOUBLE"/>
+					<Add directory="/install_folder/include"/>
+					<Add directory="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src"/>
+					<Add directory="/opt/openrobots/include"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/lib/x86_64-linux-gnu/urdfdom_headers/cmake/../../../../include"/>
+					<Add directory="/opt/ros/foxy/include"/>
+					<Add directory="/home/kdyun/Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 systemID/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Interface_tests">
 				<Option output="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/tests/Interface_tests" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/tests"/>
@@ -3000,6 +3276,15 @@
 		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/mmo500_ppr_example.cpp">
 			<Option target="mmo500_ppr_example"/>
 		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/my_example.cpp">
+			<Option target="my_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/my_example2.cpp">
+			<Option target="my_example2"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/pinocchioTest.cpp">
+			<Option target="pinocchioTest"/>
+		</Unit>
 		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/rubion_example.cpp">
 			<Option target="rubion_example"/>
 		</Unit>
@@ -3020,6 +3305,9 @@
 		</Unit>
 		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/softarm_prismatic_slack_example.cpp">
 			<Option target="softarm_prismatic_slack_example"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/systemID.cpp">
+			<Option target="systemID"/>
 		</Unit>
 		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/examples/tetra_mm_example.cpp">
 			<Option target="tetra_mm_example"/>
@@ -3155,6 +3443,21 @@
 		</Unit>
 		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/../../../../../usr/local/lib/cmake/casadi/casadi-targets.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\casadi\"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/../../../Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/lib/cmake/raisim/raisim-targets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\raisimLib\raisim\linux\lib\cmake\raisim\"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/../../../Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/lib/cmake/raisim/raisim-targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\raisimLib\raisim\linux\lib\cmake\raisim\"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/../../../Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/lib/cmake/raisim/raisim-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\raisimLib\raisim\linux\lib\cmake\raisim\"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/../../../Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/lib/cmake/raisim/raisimConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\raisimLib\raisim\linux\lib\cmake\raisim\"/>
+		</Unit>
+		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/../../../Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/lib/cmake/raisim/raisimConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\Raisim_v1.1.7\raisim_workspace\raisimLib\raisim\linux\lib\cmake\raisim\"/>
 		</Unit>
 		<Unit filename="/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/cmake/tmp-cxx-standard.cpp">
 			<Option virtualFolder="CMake Files\cmake-build-debug\cmake\"/>

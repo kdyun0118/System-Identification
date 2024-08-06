@@ -87,6 +87,34 @@ namespace mecali
 
     return coriolis;
   }
+  casadi::Function get_nonlinearities(CasadiModel &cas_model, CasadiData &cas_data) // added
+{
+  // Set variables
+  CasadiScalar        q_sx = casadi::SX::sym("q", cas_model.nq);
+  ConfigVectorCasadi  q_casadi(cas_model.nq);
+  pinocchio::casadi::copy( q_sx, q_casadi );
+
+  CasadiScalar        v_sx = casadi::SX::sym("v", cas_model.nv);
+  TangentVectorCasadi v_casadi( cas_model.nv );
+  pinocchio::casadi::copy( v_sx, v_casadi );
+
+  CasadiScalar        a_sx = casadi::SX::sym("a", cas_model.nv);
+  TangentVectorCasadi a_casadi(cas_model.nv);
+  pinocchio::casadi::copy( a_sx, a_casadi );
+
+  // Call the Recursive Newton-Euler algorithm
+  pinocchio::rnea( cas_model, cas_data, q_casadi, v_casadi, a_casadi );
+  pinocchio::nonLinearEffects(cas_model,cas_data,q_casadi,v_casadi);
+
+  // Get the result from ABA into an SX
+  casadi::SX          b_sx( cas_model.nv, 1);
+  pinocchio::casadi::copy( cas_data.nle, b_sx );
+  // Create the RNEA function
+  casadi::Function    nonlinearities("nonlinearities", casadi::SXVector {q_sx,v_sx}, casadi::SXVector {b_sx});
+
+  return nonlinearities;
+}
+
   casadi::Function get_mass_matrix(CasadiModel &cas_model, CasadiData &cas_data)
   {
     // Set variables
@@ -222,5 +250,84 @@ namespace mecali
       return rnea_derivatives;
     }
   }
+
+  // ---------------------------
+  casadi::Function get_joint_torque_regressor_inertia_parameter(CasadiModel &cas_model, CasadiData &cas_data)
+{
+  // Set variables
+  CasadiScalar        q_sx = casadi::SX::sym("q", cas_model.nq);
+  ConfigVectorCasadi  q_casadi(cas_model.nq);
+  pinocchio::casadi::copy( q_sx, q_casadi );
+
+  CasadiScalar        v_sx = casadi::SX::sym("v", cas_model.nv);
+  TangentVectorCasadi v_casadi( cas_model.nv );
+  pinocchio::casadi::copy( v_sx, v_casadi );
+
+  CasadiScalar        a_sx = casadi::SX::sym("a", cas_model.nv);
+  TangentVectorCasadi a_casadi(cas_model.nv);
+  pinocchio::casadi::copy( a_sx, a_casadi );
+
+  CasadiScalar        inertia_sx = casadi::SX::sym("inertia", (cas_model.njoints-1)*10);
+  TangentVectorCasadi inertia_casadi((cas_model.njoints-1)*10);
+  pinocchio::casadi::copy( inertia_sx, inertia_casadi );
+
+  // set inertia parameter as symbolic variable
+  for (pinocchio::Model::JointIndex i = 1; i < (pinocchio::Model::JointIndex)cas_model.njoints; ++i){
+    cas_model.inertias[i].FromDynamicParameters(inertia_casadi.segment<10>((int)((i - 1) * 10)));
+//    params.segment<10>((int)((i - 1) * 10)) = cas_model.inertias[i].toDynamicParameters();
+  }
+  pinocchio::computeAllTerms(cas_model, cas_data, q_casadi, v_casadi);
+  // Call the Recursive Newton-Euler algorithm
+  pinocchio::rnea( cas_model, cas_data, q_casadi, v_casadi, a_casadi );
+  pinocchio::computeJointTorqueRegressor(cas_model, cas_data, q_casadi, v_casadi, a_casadi);
+
+  // Get the result from ABA into an SX
+  casadi::SX          JTR_sx( cas_model.nv, 10*(cas_model.nv));
+  pinocchio::casadi::copy( cas_data.jointTorqueRegressor, JTR_sx );
+
+  // Create the RNEA function
+  casadi::Function    joint_torque_regressor("joint_torque_reg_inertia_param", casadi::SXVector {q_sx, v_sx, a_sx, inertia_sx}, casadi::SXVector {JTR_sx}, std::vector<std::string>{"q","dq","ddq","inertia_param"}, std::vector<std::string>{"joint_torque_regressor"});
+
+  return joint_torque_regressor;
+}
+  casadi::Function get_inverse_dynamics_inertia_parameter(CasadiModel &cas_model, CasadiData &cas_data)
+{
+  // Set variables
+  CasadiScalar        q_sx = casadi::SX::sym("q", cas_model.nq);
+  ConfigVectorCasadi  q_casadi(cas_model.nq);
+  pinocchio::casadi::copy( q_sx, q_casadi );
+
+  CasadiScalar        v_sx = casadi::SX::sym("v", cas_model.nv);
+  TangentVectorCasadi v_casadi( cas_model.nv );
+  pinocchio::casadi::copy( v_sx, v_casadi );
+
+  CasadiScalar        a_sx = casadi::SX::sym("a", cas_model.nv);
+  TangentVectorCasadi a_casadi(cas_model.nv);
+  pinocchio::casadi::copy( a_sx, a_casadi );
+
+  CasadiScalar        inertia_sx = casadi::SX::sym("inertia", (cas_model.njoints-1)*10);
+  TangentVectorCasadi inertia_casadi((cas_model.njoints-1)*10);
+  pinocchio::casadi::copy( inertia_sx, inertia_casadi );
+
+  // set inertia parameter as symbolic variable
+  for (pinocchio::Model::JointIndex i = 1; i < (pinocchio::Model::JointIndex)cas_model.njoints; ++i){
+    cas_model.inertias[i].FromDynamicParameters(inertia_casadi.segment<10>((int)((i - 1) * 10)));
+//    cas_model.inertias[i].FromDynamicParameters(inertia_casadi.segment<10>((int)((i - 1) * 10)));
+//    params.segment<10>((int)((i - 1) * 10)) = cas_model.inertias[i].toDynamicParameters();
+  }
+  pinocchio::computeAllTerms(cas_model, cas_data, q_casadi, v_casadi);
+
+  // Call the Recursive Newton-Euler algorithm
+  pinocchio::rnea( cas_model, cas_data, q_casadi, v_casadi, a_casadi );
+
+  // Get the result from ABA into an SX
+  casadi::SX          tau_sx( cas_model.nv, 1);
+  pinocchio::casadi::copy( cas_data.tau, tau_sx );
+
+  // Create the RNEA function
+  casadi::Function    rnea("rnea_inertia_param", casadi::SXVector {q_sx, v_sx, a_sx, inertia_sx}, casadi::SXVector {tau_sx}, std::vector<std::string>{"q","dq","ddq","inertia_param"}, std::vector<std::string>{"tau"});
+
+  return rnea;
+}
 
 }

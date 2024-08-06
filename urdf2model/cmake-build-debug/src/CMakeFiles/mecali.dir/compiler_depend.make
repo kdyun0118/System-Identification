@@ -8826,7 +8826,15 @@ src/CMakeFiles/mecali.dir/functions/inverse_dynamics.cpp.o: ../src/functions/inv
   /opt/openrobots/include/pinocchio/algorithm/kinematics.hpp \
   /opt/openrobots/include/pinocchio/algorithm/kinematics.hxx \
   /opt/openrobots/include/pinocchio/algorithm/regressor.hpp \
-  /opt/openrobots/include/pinocchio/algorithm/regressor.hxx
+  /opt/openrobots/include/pinocchio/algorithm/regressor.hxx \
+  /opt/openrobots/include/pinocchio/algorithm/compute-all-terms.hpp \
+  /opt/openrobots/include/pinocchio/algorithm/compute-all-terms.hxx \
+  /opt/openrobots/include/pinocchio/algorithm/center-of-mass.hpp \
+  /opt/openrobots/include/pinocchio/algorithm/center-of-mass.hxx \
+  /opt/openrobots/include/pinocchio/algorithm/jacobian.hpp \
+  /opt/openrobots/include/pinocchio/algorithm/jacobian.hxx \
+  /opt/openrobots/include/pinocchio/algorithm/energy.hpp \
+  /opt/openrobots/include/pinocchio/algorithm/energy.hxx
 
 src/CMakeFiles/mecali.dir/functions/robot_expressions.cpp.o: ../src/functions/robot_expressions.cpp \
   /usr/include/stdc-predef.h \
@@ -13392,11 +13400,17 @@ src/CMakeFiles/mecali.dir/model_interface.cpp.o: ../src/model_interface.cpp \
   /opt/openrobots/include/pinocchio/algorithm/kinematics.hxx \
   /opt/openrobots/include/pinocchio/algorithm/regressor.hpp \
   /opt/openrobots/include/pinocchio/algorithm/regressor.hxx \
+  /opt/openrobots/include/pinocchio/algorithm/compute-all-terms.hpp \
+  /opt/openrobots/include/pinocchio/algorithm/compute-all-terms.hxx \
+  /opt/openrobots/include/pinocchio/algorithm/center-of-mass.hpp \
+  /opt/openrobots/include/pinocchio/algorithm/center-of-mass.hxx \
+  /opt/openrobots/include/pinocchio/algorithm/jacobian.hpp \
+  /opt/openrobots/include/pinocchio/algorithm/jacobian.hxx \
+  /opt/openrobots/include/pinocchio/algorithm/energy.hpp \
+  /opt/openrobots/include/pinocchio/algorithm/energy.hxx \
   ../src/functions/forward_kinematics.hpp \
   /opt/openrobots/include/pinocchio/algorithm/frames.hpp \
   /opt/openrobots/include/pinocchio/algorithm/frames.hxx \
-  /opt/openrobots/include/pinocchio/algorithm/jacobian.hpp \
-  /opt/openrobots/include/pinocchio/algorithm/jacobian.hxx \
   ../src/functions/code_generation.hpp \
   ../src/functions/common.hpp \
   ../src/functions/robot_expressions.hpp \
@@ -13721,6 +13735,10 @@ src/CMakeFiles/mecali.dir/model_interface.cpp.o: ../src/model_interface.cpp \
 
 ../src/functions/robot_expressions.cpp:
 
+/opt/openrobots/include/pinocchio/algorithm/energy.hpp:
+
+/opt/openrobots/include/pinocchio/algorithm/center-of-mass.hxx:
+
 /opt/openrobots/include/pinocchio/algorithm/crba.hpp:
 
 /opt/openrobots/include/pinocchio/algorithm/rnea-derivatives.hpp:
@@ -13818,6 +13836,8 @@ src/CMakeFiles/mecali.dir/model_interface.cpp.o: ../src/model_interface.cpp \
 /usr/include/boost/fusion/view/reverse_view/detail/distance_impl.hpp:
 
 /usr/include/boost/fusion/view/reverse_view/detail/advance_impl.hpp:
+
+/opt/openrobots/include/pinocchio/algorithm/compute-all-terms.hxx:
 
 /usr/include/boost/fusion/view/reverse_view/detail/prior_impl.hpp:
 
@@ -14240,6 +14260,8 @@ src/CMakeFiles/mecali.dir/model_interface.cpp.o: ../src/model_interface.cpp \
 /usr/include/boost/archive/basic_text_oarchive.hpp:
 
 /usr/include/boost/archive/archive_exception.hpp:
+
+/opt/openrobots/include/pinocchio/algorithm/center-of-mass.hpp:
 
 /usr/include/boost/archive/basic_streambuf_locale_saver.hpp:
 
@@ -15146,6 +15168,8 @@ src/CMakeFiles/mecali.dir/model_interface.cpp.o: ../src/model_interface.cpp \
 /usr/include/boost/mpl/aux_/reverse_fold_impl_body.hpp:
 
 /opt/openrobots/include/pinocchio/warning.hpp:
+
+/opt/openrobots/include/pinocchio/algorithm/energy.hxx:
 
 /opt/openrobots/include/pinocchio/deprecated.hpp:
 
@@ -17452,6 +17476,8 @@ src/CMakeFiles/mecali.dir/model_interface.cpp.o: ../src/model_interface.cpp \
 /usr/include/c++/9/bits/stl_uninitialized.h:
 
 /usr/include/boost/utility/enable_if.hpp:
+
+/opt/openrobots/include/pinocchio/algorithm/compute-all-terms.hpp:
 
 /usr/include/boost/ref.hpp:
 

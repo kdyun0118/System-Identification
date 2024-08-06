@@ -666,6 +666,58 @@ indyrp2_example/fast:
 .PHONY : indyrp2_example/fast
 
 #=============================================================================
+# Target rules for targets named my_example
+
+# Build rule for target.
+my_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_example
+.PHONY : my_example
+
+# fast build rule for target.
+my_example/fast:
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/my_example.dir/build.make examples/CMakeFiles/my_example.dir/build
+.PHONY : my_example/fast
+
+#=============================================================================
+# Target rules for targets named my_example2
+
+# Build rule for target.
+my_example2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_example2
+.PHONY : my_example2
+
+# fast build rule for target.
+my_example2/fast:
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/my_example2.dir/build.make examples/CMakeFiles/my_example2.dir/build
+.PHONY : my_example2/fast
+
+#=============================================================================
+# Target rules for targets named pinocchioTest
+
+# Build rule for target.
+pinocchioTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pinocchioTest
+.PHONY : pinocchioTest
+
+# fast build rule for target.
+pinocchioTest/fast:
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/pinocchioTest.dir/build.make examples/CMakeFiles/pinocchioTest.dir/build
+.PHONY : pinocchioTest/fast
+
+#=============================================================================
+# Target rules for targets named systemID
+
+# Build rule for target.
+systemID: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 systemID
+.PHONY : systemID
+
+# fast build rule for target.
+systemID/fast:
+	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/systemID.dir/build.make examples/CMakeFiles/systemID.dir/build
+.PHONY : systemID/fast
+
+#=============================================================================
 # Target rules for targets named Interface_tests
 
 # Build rule for target.
@@ -773,6 +825,9 @@ help:
 	@echo "... mmo500_arm_example"
 	@echo "... mmo500_example"
 	@echo "... mmo500_ppr_example"
+	@echo "... my_example"
+	@echo "... my_example2"
+	@echo "... pinocchioTest"
 	@echo "... rubion_example"
 	@echo "... scara_example"
 	@echo "... sftlink_example"
@@ -780,6 +835,7 @@ help:
 	@echo "... softarm_example"
 	@echo "... softarm_prismatic_example"
 	@echo "... softarm_prismatic_slack_example"
+	@echo "... systemID"
 	@echo "... tetra_mm_example"
 	@echo "... tj_example"
 	@echo "... ur10_example"

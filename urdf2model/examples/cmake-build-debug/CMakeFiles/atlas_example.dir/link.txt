@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/atlas_example.dir/atlas_example.o -o atlas_example  -lProject -lpinocchio::pinocchio 

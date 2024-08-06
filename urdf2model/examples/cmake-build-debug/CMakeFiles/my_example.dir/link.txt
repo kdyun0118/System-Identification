@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/my_example.dir/my_example.o -o my_example  -lProject -lpinocchio::pinocchio -lraisim::raisim 

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/tetra_mm_example.dir/tetra_mm_example.o -o tetra_mm_example  -lProject -lpinocchio::pinocchio 

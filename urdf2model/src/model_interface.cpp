@@ -370,10 +370,10 @@ namespace mecali
     pt.put("coriolis_path", this->name + "_C.casadi");
     pt.put("gravity_path", this->name + "_G.casadi");
 
-    // for (int i = 0; i < 10*(this->n_dof); i++)
-    // {
-    //   pt.put("barycentric_params.b"+i, this->barycentric_params[i]);
-    // }
+//     for (int i = 0; i < 10*(this->n_dof); i++)
+//     {
+//       pt.put("barycentric_params.b"+i, this->barycentric_params[i]);
+//     }
 
     for (int i = 1; i < this->n_joints; i++)
     {
@@ -541,6 +541,12 @@ namespace mecali
 
     return get_inverse_dynamics(this->_casadi_model, casadi_data);
   }
+  casadi::Function Serial_Robot::inverse_dynamics_inertia_parameter()
+  {
+    CasadiData casadi_data(this->_casadi_model);
+
+    return get_inverse_dynamics_inertia_parameter(this->_casadi_model, casadi_data);
+  }
   casadi::Function Serial_Robot::generalized_gravity()
   {
     CasadiData casadi_data(this->_casadi_model);
@@ -552,6 +558,12 @@ namespace mecali
     CasadiData casadi_data(this->_casadi_model);
 
     return get_coriolis(this->_casadi_model, casadi_data);
+  }
+  casadi::Function Serial_Robot::nonlinearities()
+  {
+    CasadiData casadi_data(this->_casadi_model);
+
+    return get_nonlinearities(this->_casadi_model, casadi_data);
   }
   casadi::Function Serial_Robot::mass_matrix()
   {
@@ -570,6 +582,12 @@ namespace mecali
     CasadiData casadi_data(this->_casadi_model);
 
     return get_joint_torque_regressor(this->_casadi_model, casadi_data);
+  }
+  casadi::Function Serial_Robot::joint_torque_regressor_inertia_parameter()
+  {
+    CasadiData casadi_data(this->_casadi_model);
+
+    return get_joint_torque_regressor_inertia_parameter(this->_casadi_model, casadi_data);
   }
 
   casadi::Function Serial_Robot::forward_dynamics_derivatives(std::string type)

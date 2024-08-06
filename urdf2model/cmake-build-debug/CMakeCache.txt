@@ -266,7 +266,7 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Activate debug mode
-DEBUG_MODE:BOOL=OFF
+DEBUG_MODE:BOOL=ON
 
 //Set CMAKE_CXX_STANDARD if a dependency require it
 ENFORCE_MINIMAL_CXX_STANDARD:BOOL=OFF
@@ -303,6 +303,9 @@ onelib:FILEPATH=/usr/lib/x86_64-linux-gnu/liburdfdom_world.so
 
 //The directory containing a CMake configuration file for pinocchio.
 pinocchio_DIR:PATH=/opt/openrobots/lib/cmake/pinocchio
+
+//The directory containing a CMake configuration file for raisim.
+raisim_DIR:PATH=/home/kdyun/Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/lib/cmake/raisim
 
 //The directory containing a CMake configuration file for urdfdom.
 urdfdom_DIR:PATH=/usr/lib/x86_64-linux-gnu/urdfdom/cmake
@@ -488,6 +491,8 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Boost
 FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/usr/include][cfound components: system filesystem unit_test_framework ][v1.71.0()]
+//Details about finding raisim
+FIND_PACKAGE_MESSAGE_DETAILS_raisim:INTERNAL=[/home/kdyun/Raisim_v1.1.7/raisim_workspace/raisimLib/raisim/linux/include][raisim::raisimPng;raisim::raisimODE;raisim::raisimMine;raisim::raisim][v()]
 //ADVANCED property for variable: ProcessorCount_cmd_nproc
 ProcessorCount_cmd_nproc-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: ProcessorCount_cmd_sysctl

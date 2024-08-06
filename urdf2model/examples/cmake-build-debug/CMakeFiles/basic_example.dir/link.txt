@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/basic_example.dir/basic_example.o -o basic_example  -lProject -lpinocchio::pinocchio 

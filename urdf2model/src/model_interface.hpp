@@ -91,11 +91,15 @@ namespace mecali
     casadi::Function forward_dynamics();
 
     casadi::Function inverse_dynamics();
+    casadi::Function inverse_dynamics_inertia_parameter();
     casadi::Function generalized_gravity();
     casadi::Function coriolis_matrix();
+    casadi::Function nonlinearities();
+
     casadi::Function mass_matrix();
     casadi::Function mass_inverse_matrix();
     casadi::Function joint_torque_regressor();
+    casadi::Function joint_torque_regressor_inertia_parameter();
 
     casadi::Function forward_dynamics_derivatives(std::string type);
     casadi::Function forward_dynamics_derivatives();
@@ -118,7 +122,7 @@ namespace mecali
     // debug methods
     void print_model_data();
 
-  private:
+//  private:
     // data variables
     int _n_bodies;
     Model _model;

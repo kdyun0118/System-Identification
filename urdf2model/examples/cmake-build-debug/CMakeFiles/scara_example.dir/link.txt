@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/scara_example.dir/scara_example.o -o scara_example  -lProject -lpinocchio::pinocchio 

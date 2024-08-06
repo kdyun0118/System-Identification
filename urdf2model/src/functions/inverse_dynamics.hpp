@@ -7,15 +7,19 @@
 #include <pinocchio/algorithm/rnea-derivatives.hpp>
 #include <pinocchio/algorithm/crba.hpp>
 #include "pinocchio/algorithm/regressor.hpp"
+#include "pinocchio/algorithm/compute-all-terms.hpp"
 
 
 namespace mecali
 {
   casadi::Function get_inverse_dynamics(CasadiModel &cas_model, CasadiData &cas_data);
+  casadi::Function get_inverse_dynamics_inertia_parameter(CasadiModel &cas_model, CasadiData &cas_data);
   casadi::Function get_generalized_gravity(CasadiModel &cas_model, CasadiData &cas_data);
   casadi::Function get_coriolis(CasadiModel &cas_model, CasadiData &cas_data);
+  casadi::Function get_nonlinearities(CasadiModel &cas_model, CasadiData &cas_data);
   casadi::Function get_mass_matrix(CasadiModel &cas_model, CasadiData &cas_data);
   casadi::Function get_joint_torque_regressor(CasadiModel &cas_model, CasadiData &cas_data);
+  casadi::Function get_joint_torque_regressor_inertia_parameter(CasadiModel &cas_model, CasadiData &cas_data);
   casadi::Function get_generalized_gravity_derivatives(CasadiModel &cas_model, CasadiData &cas_data);
   casadi::Function get_inverse_dynamics_derivatives(CasadiModel &cas_model, CasadiData &cas_data, std::string type);
 }

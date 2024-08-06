@@ -2169,11 +2169,17 @@ src/CMakeFiles/mecali.dir/model_interface.cpp.o: \
  /opt/openrobots/include/pinocchio/algorithm/kinematics.hxx \
  /opt/openrobots/include/pinocchio/algorithm/regressor.hpp \
  /opt/openrobots/include/pinocchio/algorithm/regressor.hxx \
+ /opt/openrobots/include/pinocchio/algorithm/compute-all-terms.hpp \
+ /opt/openrobots/include/pinocchio/algorithm/compute-all-terms.hxx \
+ /opt/openrobots/include/pinocchio/algorithm/center-of-mass.hpp \
+ /opt/openrobots/include/pinocchio/algorithm/center-of-mass.hxx \
+ /opt/openrobots/include/pinocchio/algorithm/jacobian.hpp \
+ /opt/openrobots/include/pinocchio/algorithm/jacobian.hxx \
+ /opt/openrobots/include/pinocchio/algorithm/energy.hpp \
+ /opt/openrobots/include/pinocchio/algorithm/energy.hxx \
  /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src/functions/forward_kinematics.hpp \
  /opt/openrobots/include/pinocchio/algorithm/frames.hpp \
  /opt/openrobots/include/pinocchio/algorithm/frames.hxx \
- /opt/openrobots/include/pinocchio/algorithm/jacobian.hpp \
- /opt/openrobots/include/pinocchio/algorithm/jacobian.hxx \
  /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src/functions/code_generation.hpp \
  /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src/functions/common.hpp \
  /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/src/functions/robot_expressions.hpp \

@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/mir_m0609_ppr_example.dir/mir_m0609_ppr_example.o -o mir_m0609_ppr_example  -lProject -lpinocchio::pinocchio 

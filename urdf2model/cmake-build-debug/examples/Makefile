@@ -689,6 +689,62 @@ indyrp2_example/fast:
 	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/indyrp2_example.dir/build.make examples/CMakeFiles/indyrp2_example.dir/build
 .PHONY : indyrp2_example/fast
 
+# Convenience name for target.
+examples/CMakeFiles/my_example.dir/rule:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/my_example.dir/rule
+.PHONY : examples/CMakeFiles/my_example.dir/rule
+
+# Convenience name for target.
+my_example: examples/CMakeFiles/my_example.dir/rule
+.PHONY : my_example
+
+# fast build rule for target.
+my_example/fast:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/my_example.dir/build.make examples/CMakeFiles/my_example.dir/build
+.PHONY : my_example/fast
+
+# Convenience name for target.
+examples/CMakeFiles/my_example2.dir/rule:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/my_example2.dir/rule
+.PHONY : examples/CMakeFiles/my_example2.dir/rule
+
+# Convenience name for target.
+my_example2: examples/CMakeFiles/my_example2.dir/rule
+.PHONY : my_example2
+
+# fast build rule for target.
+my_example2/fast:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/my_example2.dir/build.make examples/CMakeFiles/my_example2.dir/build
+.PHONY : my_example2/fast
+
+# Convenience name for target.
+examples/CMakeFiles/pinocchioTest.dir/rule:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/pinocchioTest.dir/rule
+.PHONY : examples/CMakeFiles/pinocchioTest.dir/rule
+
+# Convenience name for target.
+pinocchioTest: examples/CMakeFiles/pinocchioTest.dir/rule
+.PHONY : pinocchioTest
+
+# fast build rule for target.
+pinocchioTest/fast:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/pinocchioTest.dir/build.make examples/CMakeFiles/pinocchioTest.dir/build
+.PHONY : pinocchioTest/fast
+
+# Convenience name for target.
+examples/CMakeFiles/systemID.dir/rule:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 examples/CMakeFiles/systemID.dir/rule
+.PHONY : examples/CMakeFiles/systemID.dir/rule
+
+# Convenience name for target.
+systemID: examples/CMakeFiles/systemID.dir/rule
+.PHONY : systemID
+
+# fast build rule for target.
+systemID/fast:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/systemID.dir/build.make examples/CMakeFiles/systemID.dir/build
+.PHONY : systemID/fast
+
 atlas_example.o: atlas_example.cpp.o
 .PHONY : atlas_example.o
 
@@ -1265,6 +1321,78 @@ mmo500_ppr_example.cpp.s:
 	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/mmo500_ppr_example.dir/build.make examples/CMakeFiles/mmo500_ppr_example.dir/mmo500_ppr_example.cpp.s
 .PHONY : mmo500_ppr_example.cpp.s
 
+my_example.o: my_example.cpp.o
+.PHONY : my_example.o
+
+# target to build an object file
+my_example.cpp.o:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/my_example.dir/build.make examples/CMakeFiles/my_example.dir/my_example.cpp.o
+.PHONY : my_example.cpp.o
+
+my_example.i: my_example.cpp.i
+.PHONY : my_example.i
+
+# target to preprocess a source file
+my_example.cpp.i:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/my_example.dir/build.make examples/CMakeFiles/my_example.dir/my_example.cpp.i
+.PHONY : my_example.cpp.i
+
+my_example.s: my_example.cpp.s
+.PHONY : my_example.s
+
+# target to generate assembly for a file
+my_example.cpp.s:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/my_example.dir/build.make examples/CMakeFiles/my_example.dir/my_example.cpp.s
+.PHONY : my_example.cpp.s
+
+my_example2.o: my_example2.cpp.o
+.PHONY : my_example2.o
+
+# target to build an object file
+my_example2.cpp.o:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/my_example2.dir/build.make examples/CMakeFiles/my_example2.dir/my_example2.cpp.o
+.PHONY : my_example2.cpp.o
+
+my_example2.i: my_example2.cpp.i
+.PHONY : my_example2.i
+
+# target to preprocess a source file
+my_example2.cpp.i:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/my_example2.dir/build.make examples/CMakeFiles/my_example2.dir/my_example2.cpp.i
+.PHONY : my_example2.cpp.i
+
+my_example2.s: my_example2.cpp.s
+.PHONY : my_example2.s
+
+# target to generate assembly for a file
+my_example2.cpp.s:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/my_example2.dir/build.make examples/CMakeFiles/my_example2.dir/my_example2.cpp.s
+.PHONY : my_example2.cpp.s
+
+pinocchioTest.o: pinocchioTest.cpp.o
+.PHONY : pinocchioTest.o
+
+# target to build an object file
+pinocchioTest.cpp.o:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/pinocchioTest.dir/build.make examples/CMakeFiles/pinocchioTest.dir/pinocchioTest.cpp.o
+.PHONY : pinocchioTest.cpp.o
+
+pinocchioTest.i: pinocchioTest.cpp.i
+.PHONY : pinocchioTest.i
+
+# target to preprocess a source file
+pinocchioTest.cpp.i:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/pinocchioTest.dir/build.make examples/CMakeFiles/pinocchioTest.dir/pinocchioTest.cpp.i
+.PHONY : pinocchioTest.cpp.i
+
+pinocchioTest.s: pinocchioTest.cpp.s
+.PHONY : pinocchioTest.s
+
+# target to generate assembly for a file
+pinocchioTest.cpp.s:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/pinocchioTest.dir/build.make examples/CMakeFiles/pinocchioTest.dir/pinocchioTest.cpp.s
+.PHONY : pinocchioTest.cpp.s
+
 rubion_example.o: rubion_example.cpp.o
 .PHONY : rubion_example.o
 
@@ -1432,6 +1560,30 @@ softarm_prismatic_slack_example.s: softarm_prismatic_slack_example.cpp.s
 softarm_prismatic_slack_example.cpp.s:
 	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/softarm_prismatic_slack_example.dir/build.make examples/CMakeFiles/softarm_prismatic_slack_example.dir/softarm_prismatic_slack_example.cpp.s
 .PHONY : softarm_prismatic_slack_example.cpp.s
+
+systemID.o: systemID.cpp.o
+.PHONY : systemID.o
+
+# target to build an object file
+systemID.cpp.o:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/systemID.dir/build.make examples/CMakeFiles/systemID.dir/systemID.cpp.o
+.PHONY : systemID.cpp.o
+
+systemID.i: systemID.cpp.i
+.PHONY : systemID.i
+
+# target to preprocess a source file
+systemID.cpp.i:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/systemID.dir/build.make examples/CMakeFiles/systemID.dir/systemID.cpp.i
+.PHONY : systemID.cpp.i
+
+systemID.s: systemID.cpp.s
+.PHONY : systemID.s
+
+# target to generate assembly for a file
+systemID.cpp.s:
+	cd /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug && $(MAKE) $(MAKESILENT) -f examples/CMakeFiles/systemID.dir/build.make examples/CMakeFiles/systemID.dir/systemID.cpp.s
+.PHONY : systemID.cpp.s
 
 tetra_mm_example.o: tetra_mm_example.cpp.o
 .PHONY : tetra_mm_example.o
@@ -1614,6 +1766,9 @@ help:
 	@echo "... mmo500_arm_example"
 	@echo "... mmo500_example"
 	@echo "... mmo500_ppr_example"
+	@echo "... my_example"
+	@echo "... my_example2"
+	@echo "... pinocchioTest"
 	@echo "... rubion_example"
 	@echo "... scara_example"
 	@echo "... sftlink_example"
@@ -1621,6 +1776,7 @@ help:
 	@echo "... softarm_example"
 	@echo "... softarm_prismatic_example"
 	@echo "... softarm_prismatic_slack_example"
+	@echo "... systemID"
 	@echo "... tetra_mm_example"
 	@echo "... tj_example"
 	@echo "... ur10_example"
@@ -1699,6 +1855,15 @@ help:
 	@echo "... mmo500_ppr_example.o"
 	@echo "... mmo500_ppr_example.i"
 	@echo "... mmo500_ppr_example.s"
+	@echo "... my_example.o"
+	@echo "... my_example.i"
+	@echo "... my_example.s"
+	@echo "... my_example2.o"
+	@echo "... my_example2.i"
+	@echo "... my_example2.s"
+	@echo "... pinocchioTest.o"
+	@echo "... pinocchioTest.i"
+	@echo "... pinocchioTest.s"
 	@echo "... rubion_example.o"
 	@echo "... rubion_example.i"
 	@echo "... rubion_example.s"
@@ -1720,6 +1885,9 @@ help:
 	@echo "... softarm_prismatic_slack_example.o"
 	@echo "... softarm_prismatic_slack_example.i"
 	@echo "... softarm_prismatic_slack_example.s"
+	@echo "... systemID.o"
+	@echo "... systemID.i"
+	@echo "... systemID.s"
 	@echo "... tetra_mm_example.o"
 	@echo "... tetra_mm_example.i"
 	@echo "... tetra_mm_example.s"

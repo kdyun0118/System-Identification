@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/iiwa_example.dir/iiwa_example.o -o iiwa_example  -lProject -lpinocchio::pinocchio 

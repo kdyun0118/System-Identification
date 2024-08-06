@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/yumi_example.dir/yumi_example.o -o yumi_example  -lProject -lpinocchio::pinocchio 

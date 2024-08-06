@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<raisim version="1.0">
+    <gravity value="0.000000, 0.000000, -9.810000" />
+<!--    <gravity value="0.000000, 0.000000, 0.00000" />-->
+    <erp erp="0.3" erp2="0.002" />
+
+
+<!--    <timeStep value="0.0002" />-->
+    <timeStep value="0.0005" />
+<!--    <timeStep value="0.005" />-->
+    <objects>
+        <ground name="floor" collisionGroup="64" collisionMask="1" height="0" material="rubber"/>
+        <articulatedSystem name="robot_true" resDir="[THIS_DIR]/" urdfPath="[THIS_DIR]/go1.urdf" collisionGroup="1" collisionMask="-1">
+<!--        <articulatedSystem name="robot_true" resDir="[THIS_DIR]/../meshes" urdfPath="[THIS_DIR]/go1_backup.urdf" collisionGroup="1" collisionMask="-1">-->
+<!--        <articulatedSystem name="robot_true" resDir="[THIS_DIR]/../meshes" urdfPath="[THIS_DIR]/go1_noTorqueLimit.urdf" collisionGroup="1" collisionMask="-1">-->
+            <state qpos=" 0., 0., 0.31, 1.0, 0.0, 0.0, 0.0, 0.00  , 0.7854, -1.5708, 0.00, 0.7854, -1.5708, 0.00, 0.7854, -1.5708, 0.00, 0.7854, -1.5708"
+                   qvel="0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000" />
+        </articulatedSystem>
+
+<!--        <articulatedSystem name="robot_est" resDir="[THIS_DIR]/../meshes" urdfPath="[THIS_DIR]/go1.urdf" collisionGroup="2" collisionMask="2">-->
+<!--            <state qpos=" 1.0, 1.0, 0.31, 1.0, 0.0, 0.0, 0.0, -0.05, 0.8, -1.6, 0.05, 0.8, -1.6, -0.05, 0.8, -1.6, 0.05, 0.8, -1.6"-->
+<!--                   qvel="0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000, 0.000000" />-->
+<!--        </articulatedSystem>-->
+
+    </objects>
+   
+    <camera follow="robot" x="1" y="1" z="1"/>
+</raisim>

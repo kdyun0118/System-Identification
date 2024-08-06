@@ -50,6 +50,10 @@
 /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/CMakeFiles/xarm6_ros_example.dir
 /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/CMakeFiles/indy7_example.dir
 /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/CMakeFiles/indyrp2_example.dir
+/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/CMakeFiles/my_example.dir
+/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/CMakeFiles/my_example2.dir
+/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/CMakeFiles/pinocchioTest.dir
+/home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/CMakeFiles/systemID.dir
 /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/CMakeFiles/test.dir
 /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/CMakeFiles/edit_cache.dir
 /home/kdyun/Desktop/urdf2modelcasadi/urdf2model/cmake-build-debug/examples/CMakeFiles/rebuild_cache.dir

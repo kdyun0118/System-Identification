@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/rubion_example.dir/rubion_example.o -o rubion_example  -lProject -lpinocchio::pinocchio 

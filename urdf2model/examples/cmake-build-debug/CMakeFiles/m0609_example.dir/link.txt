@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/m0609_example.dir/m0609_example.o -o m0609_example  -lProject -lpinocchio::pinocchio 

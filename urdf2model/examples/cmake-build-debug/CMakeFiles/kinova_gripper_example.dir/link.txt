@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/kinova_gripper_example.dir/kinova_gripper_example.o -o kinova_gripper_example  -lProject -lpinocchio::pinocchio 

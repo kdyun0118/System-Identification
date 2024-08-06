@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/sftlink_example.dir/sftlink_example.o -o sftlink_example  -lProject -lpinocchio::pinocchio 

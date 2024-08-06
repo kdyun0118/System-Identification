@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/kinova_2dof_example.dir/kinova_2dof_example.o -o kinova_2dof_example  -lProject -lpinocchio::pinocchio 
